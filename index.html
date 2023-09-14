@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>BHCP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="BHCP, also known as Barangay Health Center Portal is a website made to give convinience on consultation process in a certain barangay."
+    />
+    <meta
+      name="keywords"
+      content="barangay, center, phealth center, barangay consultation"
+    />
+
+    <!-- Bootstrap CSS v5.3.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-success navbar-primary py-3 fixed-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand text-dark" style="font-weight: bold"
+          ><i class="bi bi-heart-pulse h2"></i>Barangay
+          <span class="text-primary"> Health Center</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link text-light">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link text-light"
+                ><i class="bi bi-telephone"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="d-md-flex justify-content-between align-items-center">
+          <div class="input-group search-input">
+            <input type="text" class="form-control" placeholder="Search Here" />
+            <button class="btn btn-dark btn-sm" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase Carousel -->
+    <!-- Carousel -->
+    <section
+      id="slider"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/barangay health center.jpg"
+            alt="Banner1"
+            class="d-block w-100"
+            style="height: 600px"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./images/Senior Check-up.jpg"
+            alt="Banner2"
+            class="d-block w-100"
+            style="height: 600px"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./images/Maternity Check-up.jpg"
+            alt="Banner3"
+            class="d-block w-100"
+            style="height: 600px"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./images/Infant Check-up.jpg"
+            alt="Banner4"
+            class="d-block w-100"
+            style="height: 600px"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <section id="about" class="pt-md-3 pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center pt-15">
+            <h2>About Us</h2>
+            <h6>What We Do?</h6>
+            <p>
+              We are a community-based health care facility in the Philippines
+              that provides primary health care services to all constituents of
+              the barangay, including first aid, maternal and child health care,
+              communicable diseases, and other basic health services 1. The
+              Barangay Health Center is part of the primary health care system
+              that has been adopted by the Philippines since the 1980s as the
+              main functional method for providing any form of health care for a
+              growing population 1. The Municipal Health Office is responsible
+              for developing the delivery of health services and providing
+              additional budgets for medicines, equipment, and health workers 1.
+              The workers in Barangay Makiling voluntarily render primary health
+              services. They are called Barangay health workers, barangay health
+              officers, Barangay nutrition scholar, and others 1
+            </p>
+            <a href="#" class="btn btn-info">Learn More</a>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img
+              src="./images/barangay health center.jpg"
+              alt="About Image"
+              width="540"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="mt-5 pb-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="text-center">
+            <h2>Health Services</h2>
+          </div>
+        </div>
+
+        <!-- Services card -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/Program1.jpg"
+                alt="Work1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h2 class="card-title">Family Planning</h2>
+                <h4>Family Planning Promotion</h4>
+                <p>
+                  Family planning counselling. Provision of contraceptives, IUD,
+                  PILLS, Condoms, DMPA. Counselling LAM, Natural family planning
+                  (MUCLS method, RBT Symptothermal, Standard Days Method). Tubal
+                  Ligation. Cancer Screening (AA wash and Pap smear).
+                  COUNSELLING. Referrals of complicated cases.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./images/Maternity Check-up.jpg"
+                alt="Work1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Maternal Care</h4>
+                <p class="card-text">
+                  Prenatal and postpartum care. Assist in the delivery at home
+                  and lying in. Provision of tetanus toxoid to pregnant women.
+                  Referral. Recording and Reporting.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/640x480/?vaccination"
+                alt="Immunization"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Expanded Program of Immunization</h4>
+                <p class="card-text">
+                  Immunization of Children. Monitoring and Reporting. Follow up.
+                  Referrals.
+                </p>
+                <a href="#" class="btn btn-info">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
