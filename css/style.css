@@ -8,3 +8,7 @@ img {
 .carousel-control-next-icon {
   background-color: #262626c2;
 }
+
+#navnMenu .nav-link:hover {
+  background-color: rgba(192, 189, 38, 0.397);
+}
